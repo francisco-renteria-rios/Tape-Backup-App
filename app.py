@@ -1,3 +1,8 @@
+#  This is a mock up for a Tape Backup App.
+#  The app will bakcup a directory and save it to tape for archiving via FC switch.
+#  The app creates a web interface where the user enter the OS to be deployed to the server.
+#  There will be two option, one to backup, or restro the data back to a specified directoy.
+
 from flask import Flask, render_template_string, request, redirect, url_for
 import random
 import time
